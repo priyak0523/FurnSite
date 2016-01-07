@@ -1,0 +1,68 @@
+body{
+	background-image: url("../images/be6.jpg");
+	background-size: cover;
+}
+
+header h1{
+	text-align :left;
+	font-size: 2.5em;
+	font-style: italic;
+	font-family: 'Kaushan Script', cursive;
+	color:#62E80B;
+	text-shadow: 2px 2px #FF0000;
+}
+
+.unorder{
+	display: inline;
+}
+
+li.temp{
+	display: inline;
+	font-size: 20px;
+	border: 2px solid;
+	
+	padding: 10px;
+	margin: 0 auto;
+	width: 650px;
+	height: 50px;
+	background-color: brown;
+	
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+input[type="Submit"] {
+    
+    background-color: blue;
+	color: white;
+	height: 30px;
+	
+}
+a:hover{
+	color:#E8E52F;
+}
+form{
+	margin: 0 auto;
+	width: 650px;
+	height: 250px;
+}
+
+legend{
+	font-size: 1.5em;
+	font-weight: bold;
+	color: rgb(255,255,253);
+	text-transform: capitalize;
+	text-shadow: 2px 2px #000000;
+	text-shadow: 2px 2px blue;
+} 
+
+label{
+	color:#ffffff;
+}
+
+em{
+	color: red;
+}

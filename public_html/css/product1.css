@@ -1,0 +1,224 @@
+
+@font-face 
+{
+    font-family: 'lobster_1.3regular';
+    src: url('lobster_1.3-webfont.eot');
+    src: url('lobster_1.3-webfont.eot?#iefix') format('embedded-opentype'),
+        url('lobster_1.3-webfont.woff2') format('woff2'),
+        url('lobster_1.3-webfont.woff') format('woff'),
+        url('lobster_1.3-webfont.ttf') format('truetype'),
+        url('lobster_1.3-webfont.svg#lobster_1.3regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.bottom{
+    margin: 0 auto;
+    max-width: 350px;
+    border-top: 80px solid #E53C2E;
+    border-left: 175px solid transparent;
+    border-right: 175px solid transparent;
+    opacity: 0.9;
+}
+
+.slide-tag{
+    margin: 0 auto;
+    max-width: 350px;
+    padding: 0 30px;
+    height: 145px;
+    background-color: rgba(229, 60, 46, 0.9);
+}
+
+.tag{
+    max-width: 400px;
+    float: right;
+    font-family: "alternate-gothic-no-2-d";
+}
+
+.products{
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Calligraffitti', cursive;
+    color: blue;
+}
+
+.tag-wrapper{
+    margin: 0 auto;
+    max-width: 1000px;
+}
+.heading{
+    /*margin-top:0;*/
+    height: 130px;
+    background-color: orange;
+}
+
+.title{
+    color: white;
+    font-size: 3.4em;
+    padding-top: 20px;
+    margin-top: -2px;
+    font-family: 'Droid Serif', serif;
+
+}
+
+a:hover{
+    color: white;
+}
+
+img{
+    background-color: orange;
+}
+body  
+{
+    font-family: sans-serif;
+    background-image: url("../images/bpsofa4.jpg") ;
+    background-size: cover;
+}
+
+/*li.temp{
+        display : inline;
+        margin-left: 20px;
+        font-size: 20px;
+        border: 2px solid;
+        padding: 15px;
+        border-style: none;
+        border-right: 2px solid #E1D0A5;
+        
+} */
+
+a{
+    text-decoration: none;
+    color:rgb(69,35,35);
+}
+
+ul.order{
+    margin-top: -80px;
+    margin-left: 50px;
+    text-align: center;
+
+
+
+}
+
+.order li{
+    display: inline;
+    font-size: 20px;
+    border: 2px solid;
+    /*padding: 15px;*/
+    border-style: none;
+
+
+}
+
+.pic{
+    background-image: url("../images/bs1.jpg") ;
+    background-size: cover;
+    height: 450px;
+    margin-top: -16px;
+}
+
+.category{
+
+    margin-top:-28px;
+
+}
+
+.description p{
+    color: #A67C52;
+    line-height: 1.5;
+    font-weight: 500;
+    font-size:1.6em;
+    font-family: "brandon-grotesque"
+}
+
+/*li.cat1{
+        display:inline;
+        font-size: 20px;
+        border: 2px solid;
+        padding-left: 75px;
+        padding-right: 75px;
+        border-collapse: collapse;
+        background-color: black;
+        
+        opacity: 0.6;
+        margin-left:20px;
+}
+*/
+
+.ulcat li{
+    display:inline;
+    font-size: 20px;
+    border: 2px solid;
+    /*padding-left: 75px;
+    padding-right: 75px;*/
+    border-collapse: collapse;
+    background-color: black;
+    /*margin-top: -35px;*/
+    margin-left: -10px;
+    opacity: 0.6;
+}
+
+
+.c1{
+    color: white;
+    font-weight:bold;
+
+}
+
+.c1:hover{
+    color: green;
+    font-weight: bold;
+    background-color: white;
+    text-decoration: none;
+
+} 
+
+.ff{
+    float: left;
+    width: 25px;
+}
+
+h3.explore{
+    background-color: red;
+}
+
+.image{
+    margin: 0 auto;
+    width: 550px;
+    height: 200px;
+
+}
+
+em{
+    margin-left: 135px;
+
+}
+
+.name{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1em;
+}
+strong{
+    margin-left: 135px;
+}
+
+footer p 
+{
+    background-color:#292222;
+
+    clear:both;
+    font-size: 115%;
+
+
+
+    margin-bottom:auto;
+    padding:18px;
+
+    text-align: center;
+
+    color:white;
+    font-weight:bold;
+    font-family: 'La Belle Aurore', cursive;
+}

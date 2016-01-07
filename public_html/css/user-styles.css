@@ -1,0 +1,44 @@
+/* User Styles */
+
+.main1
+{
+    height:45px;
+    background-color:#6f5499;
+}
+.main2
+{
+    height:45px;
+    background-color:#fff;
+    text-align:center;
+    margin-top:12px;
+}
+nav a
+{
+    margin-left:45px;
+}
+.main3
+{
+    height:45px;
+    background-color:#6f5499;
+}
+footer
+{
+    font-size: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    clear: both;
+    margin-top:20px;
+    margin-bottom: auto;
+}
+.textleft
+{
+    margin-top:25px;
+
+}
+.textright
+{
+    margin-top:-30px;
+
+}

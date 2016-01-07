@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<head>
+    <title> Join Email </title>
+    <link href="css/email.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="container">
+
+        <header>
+            <!--<a href="homePage.html"><img src="images/l1.jpg" alt="H" style="width:100px;height:85px;"> </a>-->
+            <h1>Planning</h1>	
+        </header>
+
+        <nav id="hh">
+            <ul class="unorder">
+                <li class="temp"><a href="home.html">Home</a></li>
+                <li class="temp"><a href="table.html">Product List</a></li>
+                <li class="temp"><a href="personal.html">Personal</a></li>
+                <li class="temp"><a href="plan.html">Planning</a></li>
+                <li class="temp"><a href="email.html" class="an">Join Email</a></li>
+            </ul>
+        </nav>
+        <br />
+        <br />
+        <aside >
+            <form action="“example.php”" method="get">
+                <fieldset>
+
+                    <legend >Please enter the following information     </legend>
+                    <div>
+                        <label>
+                            First Name<em>*</em> 
+                        </label>
+                        <br />
+                        <input type="text" name="fname" size="35" maxlength="30" required="required" autofocus/>
+                        <br/> <br />
+                        <label>
+                            Last Name<em>*</em> 
+                        </label>
+                        <br />
+                        <input type="text" name="lname" size="35" maxlength="30" required="required"/>
+                        <br/> <br/>
+                        <label>
+                            Email<em>*</em> 
+                        </label>
+                        <br />
+                        <input type="mail" name="email" size="35" maxlength="30" required="required"/>
+                        <br/> <br/>
+                        <label>
+                            Address<em>*</em> 
+                        </label>
+                        <br />
+                        <textarea name="address" cols="37" rows="4" required="required"/> </textarea>
+                        <br/> <br/>
+                        <label>
+                            How did you hear about us?
+                        </label>
+                        <br />
+                        <select name="hear">
+                            <option value="website">Website </option>
+                            <option value="friend">Friend </option>
+                            <option value="newspaper">Newspaper</option>
+                            <option value="television">Television </option>
+                            <option value="mailer">Mailer</option>
+                        </select>
+                        <br/> <br/>
+                    </div>
+                </fieldset>
+                <br />
+                <input type="submit" name="subscribe" value="SUBSCRIBE"/>
+            </form>
+        </aside>
+
+        <!--Original div ends here-->
+    </div>
+
+
+</body>
+</html>

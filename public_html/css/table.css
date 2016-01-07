@@ -1,0 +1,137 @@
+body{
+    background-image: url("../images/t3.jpg") ;
+    background-size: cover;
+}
+
+div.border{
+    border:1px solid gray;
+    padding-top: 4px;
+    /*border-top:none;*/
+    border-left:none;
+    border-right:none;
+    margin-top: 4px;
+    /*border-bottom: none;*/
+} 
+
+a.item:link{
+    color:black;
+}
+a.item:visited { 
+    color: blue; 
+} 
+
+a.item:hover { 
+    color: white;
+    /*color: #E80715;*/
+    text-decoration: none;
+}
+
+a.item:focus{
+    color: green;
+}
+
+li.p1{
+    display: inline;
+    margin: 5px;
+    margin-bottom: 10px;
+    font-size: 120%;
+}
+
+.table1{
+
+}
+table.program {
+    width : 50%;
+    border-collapse: collapse;
+    background-color: rgba(97, 82, 93, 0.5);
+    font-family: Arial, Verdana, sans-serif;
+    margin-left : 390px;
+
+}
+
+td, th{
+    vertical-align: top;
+    text-align: left;
+    padding: 5px;
+}
+
+.heading{
+    color : grey;
+}
+header img { 
+    float: left; 
+} 
+
+header#logo h1 {
+
+    font-size: 250%;
+    font-style: italic;
+    color: white;
+    text-indent: 25px;
+    text-shadow: 2px 2px 2px black;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+
+
+caption{
+    font-weight: bold;
+    font-family: Arial; 
+    margin-right: 35px;
+    font-size: 18px;
+}
+col.category{
+    /*background-color: rgb(231,255,199);*/
+    text-align: left;
+}
+
+col.descr{
+    /*background-color: rgb(204,253,255);*/
+    text-align: left;
+}
+
+col.price{
+    /*background-color: rgb(255,200,148);*/
+}
+
+.cc{
+    /*background-color: rgb(255,255,255);*/
+    text-align: left;
+    color: rgb(216, 32, 73);
+
+    font-size: 25px;
+    font-family: 'Permanent Marker', cursive;
+
+}
+
+.pr{
+    /*background-color: rgb(255,255,255);*/
+    text-align: center;
+    color: rgb(216, 32, 73);
+    font-size: 25px;
+    font-family: 'Permanent Marker', cursive;
+
+}
+
+.prsp{
+    text-align: center;
+
+}
+
+p.one{
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 135%;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px green;
+}
+
+tr th{
+    font-family: 'Marck Script', cursive;
+}
+
+tr td{
+    font-family: 'Marck Script', cursive;
+}

@@ -1,0 +1,150 @@
+.heading{
+    height: 100px;
+    background-color: black;
+}
+
+body{
+    background-image: url("../images/bhome.jpg");
+}
+
+h1{
+    color: white;
+    font-family: 'Asset', cursive;
+    margin-left: 40px;
+}
+
+em{
+    color: green;
+}
+li{
+    display: inline;
+    margin-left: 10px;
+
+
+} 
+
+.icon{
+    text-decoration: none;
+    color: inherit;
+
+}
+
+p{
+    text-align: justify;
+    font-family: 'Parisienne', cursive;
+}
+
+.icon:hover{
+    color: green;
+}
+
+a{
+    color: white;
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 1.5em;
+}
+
+a:focus 
+{
+    color: red;
+    text-decoration:none;	
+} 
+a:hover
+{
+    color: red;
+    text-decoration:none;
+}
+
+.body1{
+
+    background-color:rgb(107,255,91);
+    margin-top: -20px;
+    height: 300px;
+}
+
+h3.one{
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+
+.third{
+    background-color: rgb(242,255,253);
+    height: 200px;
+} 
+
+
+footer p 
+{
+    background-color:#292222;
+
+    clear:both;
+    font-size: 115%;
+
+
+
+    margin-bottom:auto;
+    padding:18px;
+
+    text-align: center;
+
+    color:white;
+    font-weight:bold;
+    font-family: 'La Belle Aurore', cursive;
+}
+
+@media screen and (max-width: 991px) {
+    img {
+        width:345px;
+    }
+
+    @media screen and (max-width: 758px) {
+        img {
+            width:339px;
+        }
+    }
+
+    @media screen and (max-width: 733px) {
+        img {
+            width:330px;
+        }
+    }
+
+    @media screen and (max-width: 716px) {
+        img {
+            width:320px;
+        }
+    }
+
+    @media screen and (max-width: 685px) {
+        img {
+            width:300px;
+        }
+    }
+    @media screen and (max-width: 643px) {
+        img {
+            width:280px;
+        }
+    }	
+    @media screen and (max-width: 602px) {
+        img {
+            width:260px;
+        }
+    }
+    @media screen and (max-width: 556px) {
+        img {
+            width:240px;
+        }
+    }
+    @media screen and (min-width: 485px) and (max-width: 520px) {
+        img {
+            width:220px;
+        }
+    }
+
+    @media screen and (max-width: 519px) {
+        img{
+            display: none;
+        }
+
+    }
