@@ -1,9 +1,30 @@
 <!DOCTYPE html>
 <head>
     <title> Join Email </title>
-    <script src="js/formsubmit.js"></script>
+    <!--<script src="js/formsubmit.js"></script>-->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/email.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    
+    <script>
+
+function validateEmail(email) {
+  var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+  return re.test(email);
+}
+
+function validate() {
+  var email = $("#email").val();
+  if (validateEmail(email)) {
+    alert("It's a valid Email");
+  } else {
+    alert("Email address is not valid");
+  }
+  return false;
+}
+
+$("#validate").bind("click", validate);
+</script>
 </head>
 
 <body>
@@ -25,7 +46,7 @@
         <br />
         <br />
 
-        <form action="example.php" method="post">
+        <form name="myForm" action="example.php" method="post" onsubmit="return validate();">
             <fieldset>
 
                 <legend >Please enter the following information     </legend>
@@ -34,25 +55,25 @@
                         First Name<em>*</em> 
                     </label>
                     <br />
-                    <input type="text" name="fname" size="35" maxlength="30" required="required" autofocus/>
+                    <input type="text" name="fname" id="fname" size="35" maxlength="30"  autofocus/>
                     <br/> <br />
                     <label>
                         Last Name<em>*</em> 
                     </label>
                     <br />
-                    <input type="text" name="lname" size="35" maxlength="30" required="required"/>
+                    <input type="text" name="lname" id="lname" size="35" maxlength="30" required="required"/>
                     <br/> <br/>
                     <label>
                         Email<em>*</em> 
                     </label>
                     <br />
-                    <input type="mail" name="email" size="35" maxlength="30" required="required"/>
+                    <input type="mail" name="email" id="email" size="35" maxlength="30" required="required"/>
                     <br/> <br/>
                     <label>
                         Address<em>*</em> 
                     </label>
                     <br />
-                    <textarea name="address" cols="37" rows="4" required="required"/> </textarea>
+                    <textarea name="address" id="address" cols="37" rows="4" required="required"/> </textarea>
                     <br/> <br/>
                     <label>
                         How did you hear about us?
@@ -78,4 +99,6 @@
 
 
 </body>
+
+
 </html>
